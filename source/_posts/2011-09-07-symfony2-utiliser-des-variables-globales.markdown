@@ -50,7 +50,7 @@ Vous pouvez sauter cette étape si vous aviez déclaré la variable dans _parame
 #### Dans un template Twig:
 
     <p>
-        Ma variable: {{ maVariableTwig }}
+        Ma variable: { { maVariableTwig } } (espaces entre les crochets à supprimer)
     </p>
 
 Enjoy. ;)
